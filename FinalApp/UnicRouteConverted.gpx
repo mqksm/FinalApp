@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="AllTrails.com" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name><![CDATA[Map]]></name>
+    <desc><![CDATA[]]></desc>
+    <link href="http://www.alltrails.com">
+      <text>AllTrails, LLC</text>
+    </link>
+    <bounds minlat="35.16071" minlon="33.31261" maxlat="35.16689" maxlon="33.32047"/>
+  </metadata>
+    <name><![CDATA[]]></name>
+    <desc><![CDATA[]]></desc>
+    <src>AllTrails</src>
+      <wpt lat="35.16072" lon="33.31261">
+        <ele>173.98</ele>
+      </wpt>
+      <wpt lat="35.16071" lon="33.31262">
+        <ele>173.88</ele>
+      </wpt>
+      <wpt lat="35.16078" lon="33.31266">
+        <ele>174.44</ele>
+      </wpt>
+      <wpt lat="35.16122" lon="33.3129">
+        <ele>173.93</ele>
+      </wpt>
+      <wpt lat="35.16142" lon="33.313">
+        <ele>175.62</ele>
+      </wpt>
+      <wpt lat="35.16175" lon="33.31314">
+        <ele>174.68</ele>
+      </wpt>
+      <wpt lat="35.16212" lon="33.31326">
+        <ele>167.65</ele>
+      </wpt>
+      <wpt lat="35.16255" lon="33.31339">
+        <ele>165.37</ele>
+      </wpt>
+      <wpt lat="35.16271" lon="33.31344">
+        <ele>167.77</ele>
+      </wpt>
+      <wpt lat="35.16278" lon="33.31346">
+        <ele>168.59</ele>
+      </wpt>
+      <wpt lat="35.16278" lon="33.31346">
+        <ele>168.59</ele>
+      </wpt>
+      <wpt lat="35.16278" lon="33.31346">
+        <ele>168.59</ele>
+      </wpt>
+      <wpt lat="35.16294" lon="33.3135">
+        <ele>171.9</ele>
+      </wpt>
+      <wpt lat="35.16456" lon="33.31396">
+        <ele>178.33</ele>
+      </wpt>
+      <wpt lat="35.16464" lon="33.31398">
+        <ele>177.97</ele>
+      </wpt>
+      <wpt lat="35.1647" lon="33.31396">
+        <ele>177.82</ele>
+      </wpt>
+      <wpt lat="35.16474" lon="33.31394">
+        <ele>177.76</ele>
+      </wpt>
+      <wpt lat="35.16474" lon="33.31394">
+        <ele>177.76</ele>
+      </wpt>
+      <wpt lat="35.16474" lon="33.31394">
+        <ele>177.76</ele>
+      </wpt>
+      <wpt lat="35.16475" lon="33.31393">
+        <ele>177.77</ele>
+      </wpt>
+      <wpt lat="35.16481" lon="33.31388">
+        <ele>177.67</ele>
+      </wpt>
+      <wpt lat="35.1649" lon="33.31375">
+        <ele>177.5</ele>
+      </wpt>
+      <wpt lat="35.16492" lon="33.31377">
+        <ele>177.47</ele>
+      </wpt>
+      <wpt lat="35.165" lon="33.31387">
+        <ele>177.07</ele>
+      </wpt>
+      <wpt lat="35.16505" lon="33.31392">
+        <ele>176.64</ele>
+      </wpt>
+      <wpt lat="35.16512" lon="33.31397">
+        <ele>176.14</ele>
+      </wpt>
+      <wpt lat="35.16519" lon="33.31402">
+        <ele>175.63</ele>
+      </wpt>
+      <wpt lat="35.16529" lon="33.31407">
+        <ele>174.94</ele>
+      </wpt>
+      <wpt lat="35.16541" lon="33.31411">
+        <ele>174.61</ele>
+      </wpt>
+      <wpt lat="35.16552" lon="33.31414">
+        <ele>174.67</ele>
+      </wpt>
+      <wpt lat="35.16556" lon="33.31414">
+        <ele>174.59</ele>
+      </wpt>
+      <wpt lat="35.16556" lon="33.31414">
+        <ele>174.59</ele>
+      </wpt>
+      <wpt lat="35.16556" lon="33.31414">
+        <ele>174.59</ele>
+      </wpt>
+      <wpt lat="35.16562" lon="33.31415">
+        <ele>174.35</ele>
+      </wpt>
+      <wpt lat="35.1657" lon="33.31416">
+        <ele>173.91</ele>
+      </wpt>
+      <wpt lat="35.16583" lon="33.31416">
+        <ele>173.02</ele>
+      </wpt>
+      <wpt lat="35.16583" lon="33.31426">
+        <ele>173.38</ele>
+      </wpt>
+      <wpt lat="35.16583" lon="33.31426">
+        <ele>173.38</ele>
+      </wpt>
+      <wpt lat="35.16583" lon="33.31426">
+        <ele>173.38</ele>
+      </wpt>
+      <wpt lat="35.16583" lon="33.31433">
+        <ele>173.65</ele>
+      </wpt>
+      <wpt lat="35.16655" lon="33.31434">
+        <ele>179.0</ele>
+      </wpt>
+      <wpt lat="35.16665" lon="33.31435">
+        <ele>176.16</ele>
+      </wpt>
+      <wpt lat="35.16669" lon="33.31436">
+        <ele>175.21</ele>
+      </wpt>
+      <wpt lat="35.16672" lon="33.31438">
+        <ele>174.55</ele>
+      </wpt>
+      <wpt lat="35.16674" lon="33.31441">
+        <ele>173.96</ele>
+      </wpt>
+      <wpt lat="35.16675" lon="33.31445">
+        <ele>173.47</ele>
+      </wpt>
+      <wpt lat="35.16689" lon="33.31497">
+        <ele>167.83</ele>
+      </wpt>
+      <wpt lat="35.16686" lon="33.31501">
+        <ele>167.81</ele>
+      </wpt>
+      <wpt lat="35.16684" lon="33.31503">
+        <ele>167.79</ele>
+      </wpt>
+      <wpt lat="35.1668" lon="33.31503">
+        <ele>168.18</ele>
+      </wpt>
+      <wpt lat="35.16666" lon="33.31503">
+        <ele>169.64</ele>
+      </wpt>
+      <wpt lat="35.16621" lon="33.31503">
+        <ele>174.33</ele>
+      </wpt>
+      <wpt lat="35.16621" lon="33.31503">
+        <ele>174.33</ele>
+      </wpt>
+      <wpt lat="35.16602" lon="33.31503">
+        <ele>172.42</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.31503">
+        <ele>172.34</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.31503">
+        <ele>172.34</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.31503">
+        <ele>172.34</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.31503">
+        <ele>172.34</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.31503">
+        <ele>172.34</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.31503">
+        <ele>172.34</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.31503">
+        <ele>172.34</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.31503">
+        <ele>172.34</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.31503">
+        <ele>172.34</ele>
+      </wpt>
+      <wpt lat="35.16598" lon="33.31506">
+        <ele>171.99</ele>
+      </wpt>
+      <wpt lat="35.16597" lon="33.31509">
+        <ele>171.68</ele>
+      </wpt>
+      <wpt lat="35.16596" lon="33.31543">
+        <ele>169.36</ele>
+      </wpt>
+      <wpt lat="35.16597" lon="33.31546">
+        <ele>169.33</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.31549">
+        <ele>169.44</ele>
+      </wpt>
+      <wpt lat="35.16603" lon="33.31552">
+        <ele>169.54</ele>
+      </wpt>
+      <wpt lat="35.16608" lon="33.31555">
+        <ele>169.8</ele>
+      </wpt>
+      <wpt lat="35.16615" lon="33.31555">
+        <ele>170.15</ele>
+      </wpt>
+      <wpt lat="35.16609" lon="33.31572">
+        <ele>169.26</ele>
+      </wpt>
+      <wpt lat="35.16621" lon="33.3158">
+        <ele>168.54</ele>
+      </wpt>
+      <wpt lat="35.16624" lon="33.31584">
+        <ele>168.04</ele>
+      </wpt>
+      <wpt lat="35.16627" lon="33.3159">
+        <ele>167.48</ele>
+      </wpt>
+      <wpt lat="35.16628" lon="33.31598">
+        <ele>166.93</ele>
+      </wpt>
+      <wpt lat="35.16628" lon="33.31604">
+        <ele>166.59</ele>
+      </wpt>
+      <wpt lat="35.16626" lon="33.3161">
+        <ele>166.45</ele>
+      </wpt>
+      <wpt lat="35.16613" lon="33.3164">
+        <ele>165.68</ele>
+      </wpt>
+      <wpt lat="35.16588" lon="33.31699">
+        <ele>161.67</ele>
+      </wpt>
+      <wpt lat="35.16588" lon="33.31699">
+        <ele>161.67</ele>
+      </wpt>
+      <wpt lat="35.16588" lon="33.31699">
+        <ele>161.67</ele>
+      </wpt>
+      <wpt lat="35.166" lon="33.3171">
+        <ele>160.88</ele>
+      </wpt>
+      <wpt lat="35.16609" lon="33.31722">
+        <ele>160.02</ele>
+      </wpt>
+      <wpt lat="35.16625" lon="33.31743">
+        <ele>161.0</ele>
+      </wpt>
+      <wpt lat="35.16627" lon="33.31749">
+        <ele>161.28</ele>
+      </wpt>
+      <wpt lat="35.16628" lon="33.31753">
+        <ele>161.71</ele>
+      </wpt>
+      <wpt lat="35.16627" lon="33.31757">
+        <ele>161.94</ele>
+      </wpt>
+      <wpt lat="35.16626" lon="33.31761">
+        <ele>162.15</ele>
+      </wpt>
+      <wpt lat="35.16624" lon="33.31763">
+        <ele>162.01</ele>
+      </wpt>
+      <wpt lat="35.16622" lon="33.31767">
+        <ele>162.03</ele>
+      </wpt>
+      <wpt lat="35.16619" lon="33.3177">
+        <ele>161.78</ele>
+      </wpt>
+      <wpt lat="35.16618" lon="33.31774">
+        <ele>161.93</ele>
+      </wpt>
+      <wpt lat="35.16617" lon="33.31778">
+        <ele>162.06</ele>
+      </wpt>
+      <wpt lat="35.16612" lon="33.31783">
+        <ele>161.34</ele>
+      </wpt>
+      <wpt lat="35.16595" lon="33.31806">
+        <ele>161.45</ele>
+      </wpt>
+      <wpt lat="35.16581" lon="33.31829">
+        <ele>163.63</ele>
+      </wpt>
+      <wpt lat="35.16568" lon="33.31847">
+        <ele>164.82</ele>
+      </wpt>
+      <wpt lat="35.16553" lon="33.31875">
+        <ele>165.91</ele>
+      </wpt>
+      <wpt lat="35.16553" lon="33.31875">
+        <ele>165.91</ele>
+      </wpt>
+      <wpt lat="35.16553" lon="33.31875">
+        <ele>165.91</ele>
+      </wpt>
+      <wpt lat="35.1655" lon="33.31882">
+        <ele>165.8</ele>
+      </wpt>
+      <wpt lat="35.16548" lon="33.31886">
+        <ele>165.73</ele>
+      </wpt>
+      <wpt lat="35.16539" lon="33.31905">
+        <ele>164.24</ele>
+      </wpt>
+      <wpt lat="35.16519" lon="33.31949">
+        <ele>161.37</ele>
+      </wpt>
+      <wpt lat="35.16491" lon="33.32031">
+        <ele>170.76</ele>
+      </wpt>
+      <wpt lat="35.16487" lon="33.32047">
+        <ele>171.63</ele>
+      </wpt>
+</gpx>

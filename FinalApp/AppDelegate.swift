@@ -8,14 +8,19 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    let notificationCenter = UNUserNotificationCenter.current()
 
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        requestAutorization()
+        notificationCenter.delegate = self
+        
         return true
     }
 
@@ -31,6 +36,52 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    }
+    
+    //  Getting permission to use notifications
+    func requestAutorization() {
+        notificationCenter.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
+            print ("Permission granted: \(granted)")
+            
+            guard granted else { return }
+            self.getNotificationSettings()
+        }
+    }
+    
+    func getNotificationSettings() {
+        notificationCenter.getNotificationSettings { (settings ) in
+            print("Notification settings: \(settings)")
+        }
+    }
+    //    Creating notification
+    func createNotification(isEnter: Bool){
+        let content = UNMutableNotificationContent()
+        content.title = "Phone sound"
+        content.sound = UNNotificationSound.default
+        if isEnter {
+            content.body = "You have arrived at the university. We recommend putting your phone in silent mode"
+        } else {
+            content.body = "You left the university. You can turn on the sound if it is muted"
+        }
+        
+        
+        //        The second way to create notifications when entering / leaving a region
+        //        let center = CLLocationCoordinate2D(latitude: 37.335400, longitude: -122.009201)
+        //        let region = CLCircularRegion(center: center, radius: 2000.0, identifier: "Headquarters")
+        //        region.notifyOnEntry = true
+        //        region.notifyOnExit = true
+        //        let trigger = UNLocationNotificationTrigger(region: region, repeats: false)
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
+        let identifire = "Local Notification"
+        
+        let request = UNNotificationRequest(identifier: identifire, content: content, trigger: trigger)
+        
+        notificationCenter.add(request) { (error) in
+            if let error = error {
+                print ("Error: \(error.localizedDescription)")
+            }
+        }
     }
 
     // MARK: - Core Data stack
@@ -80,3 +131,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+//  Show notifications when the application is running
+extension AppDelegate: UNUserNotificationCenterDelegate{
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        
+        completionHandler([.alert, .sound])
+    }
+}
