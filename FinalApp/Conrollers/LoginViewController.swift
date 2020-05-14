@@ -64,13 +64,15 @@ class LoginViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
-        let navigationVC = segue.destination as! UINavigationController
-        let batteryTVC = navigationVC.topViewController as! BatteryTableViewController
         
         if segue.identifier == "segueBatteryTableView" {
+            let navigationVC = segue.destination as! UINavigationController
+            let batteryTVC = navigationVC.topViewController as! BatteryTableViewController
             batteryTVC.userName = loginField.text ?? ""
         }
         else if segue.identifier == "anon"{
+            let navigationVC = segue.destination as! UINavigationController
+            let batteryTVC = navigationVC.topViewController as! BatteryTableViewController
             batteryTVC.userName = "anon"
         }
 
