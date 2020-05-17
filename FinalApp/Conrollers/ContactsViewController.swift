@@ -81,9 +81,9 @@ class ContactsViewController: UIViewController {
             contactDict["Name"] = contact.familyName + " " + contact.givenName
             var numbers = ""
             for number in contact.phoneNumbers{
-                if let num = number.value.stringValue as? String{
+                let num = number.value.stringValue
                     numbers += num + "  "
-                }
+                
             }
             contactDict["Number"] = numbers
             contactDict["Email"] = contact.emailAddresses.last?.value as String?
@@ -131,9 +131,9 @@ extension ContactsViewController: UITableViewDelegate, UITableViewDataSource{
         cell.textLabel?.text = allContacts[indexPath.row].familyName + " " + allContacts[indexPath.row].givenName
         var numbers = ""
         for number in allContacts[indexPath.row].phoneNumbers{
-            if let num = number.value.stringValue as? String{
+            let num = number.value.stringValue
                 numbers += num + "  "
-            }
+            
         }
         cell.detailTextLabel?.text = numbers
         return cell

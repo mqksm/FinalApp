@@ -64,15 +64,15 @@
 		EFA804E124672A4F0035C568 /* Conrollers */ = {
 			isa = PBXGroup;
 			children = (
-				EFDCECCF246B487E00766EF7 /* BatteryTableViewController.swift */,
+				EF9B4274246739C9001B96A1 /* MainTableViewController.swift */,
+				EFA804E2246734330035C568 /* CSViewController.swift */,
+				EFDCECD8246B4E8100766EF7 /* LocalizationViewController.swift */,
+				EFA875D52467206100F09769 /* ContextLocalizationViewController.swift */,
+				EFA804E4246736070035C568 /* ContactsViewController.swift */,
 				EFDCECCC246B487D00766EF7 /* LoginViewController.swift */,
 				EFDCECCE246B487E00766EF7 /* RegisterViewController.swift */,
+				EFDCECCF246B487E00766EF7 /* BatteryTableViewController.swift */,
 				EFDCECCD246B487D00766EF7 /* StorageTableViewController.swift */,
-				EFA875D52467206100F09769 /* ContextLocalizationViewController.swift */,
-				EFDCECD8246B4E8100766EF7 /* LocalizationViewController.swift */,
-				EFA804E2246734330035C568 /* CSViewController.swift */,
-				EFA804E4246736070035C568 /* ContactsViewController.swift */,
-				EF9B4274246739C9001B96A1 /* MainTableViewController.swift */,
 			);
 			path = Conrollers;
 			sourceTree = "<group>";
