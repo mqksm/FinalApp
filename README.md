@@ -12,3 +12,15 @@ On the main screen is a list of 5 sub-applications that are launched by tapping:
 •	Passing the contacts application. The application displays the contacts on the screen and sends them to the server in the form of JSON using the POST request.
 
 •	Energy conservation application. The application displays the generated running applications on the screen in a ranked format. To use the application, user can register and log in or just log in without any credentials as anonym. User credentials are stored on the device. The main screen displays the received data about applications and their power consumption. This data is saved in the local storage of the current user, the contents of which can be seen by pressing the “Storage” button. It is also possible to clear the storage data of the current user by pressing the “Clear” button. Periodically, the application closes, which consumes the most energy. After some time, applications reopen.
+
+## Setting up the iOS Project
+
+1. Xcode 11.4.
+
+2. Download the project source.
+
+3. Open `FinalApp.xcodeproj` from the folder.
+
+4. Build the project (⌘+B) and check for any errors.
+
+5. Run the app (⌘+R) and test it.
